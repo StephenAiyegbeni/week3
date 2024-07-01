@@ -1,0 +1,120 @@
+.home{
+    background-color: blueviolet;
+}
+
+p{
+    background-color: crimson;
+}
+
+.home.school{
+    background-color: grey;
+}
+
+
+*{
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+h2{
+    font-weight: normal;
+    border-bottom: 5px solid blue;
+    color: red;
+}
+
+body h2{
+    border-bottom: 5px solid green;
+    color: green;
+}
+
+html body article > div h2{
+    font-weight: normal;
+    border-bottom: 5px solid;
+}
+
+h2 ~ p {
+    color: violet;
+}
+
+h2 + p {
+    color: green;
+}
+
+p + p{
+    color: orange;
+}
+
+h2 *{
+
+}
+
+p::selection{
+    background-color: green;
+    color: white;
+}
+
+a:visited{
+
+}
+
+a:active{
+    color: blue;
+}
+
+a:hover{
+    color: aqua;
+}
+
+ul li:first-of-type{
+    background-color: aqua;
+}
+
+li:first-of-type{
+    background-color: aqua;
+}
+
+li:last-of-type{
+    background-color: rgb(255, 0, 85);
+}
+
+li:nth-of-type(2n){
+    background-color: bisque;
+}
+
+li:nth-of-type(2n+1){
+    background-color: tomato;
+}
+
+li:nth-last-of-type(2n+2){
+    background-color: fuchsia;
+}
+
+li:nth-of-type(3n+2){
+    background-color: palegreen;
+}
+
+ul :nth-child(3){
+    background-color: lawngreen;
+}
+
+li#id001{
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+a[href^="http"]{
+    display: inline-flex;
+    background-color: violet;
+    padding: 15px;
+}
+
+a[href$="html"]{
+    display: inline-flex;
+    background-color: rgb(120, 194, 8);
+}
+
+a[href*="html"]{
+    display: inline-flex;
+    background-color: rgb(120, 194, 8);
+    padding: 15px;
+} 
